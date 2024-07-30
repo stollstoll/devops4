@@ -21,11 +21,13 @@ def multiply(x, y):
 def divide(x, y):
     'Divide Function'
     if y == 0:
-        raise ValueError('Can not divide by zero!')
+        raise ValueError('Cannot divide by zero!')
     return x / y     #return the division of 'x' by 'y'
 
 def square(x, y):
     'square function'
-    return square(x, y)     #return 'x' to the power of 'y' 
+    if y == 0:
+        print('Any number to the power of zero is equal to 1')
+    return square(x, y)     #return 'x' to the power of 'y
 
 
