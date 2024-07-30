@@ -24,6 +24,8 @@ def divide(x, y):
         raise ValueError('Can not divide by zero!')
     return x / y     #return the division of 'x' by 'y'
 
-
+def square(x, y):
+    'square function'
+    return square(x, y)     #return 'x' to the power of 'y' 
 
 
