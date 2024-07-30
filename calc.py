@@ -21,7 +21,7 @@ def multiply(x, y):
 def divide(x, y):
     'Divide Function'
     if y == 0:
-        raise ValueError('Cann divide by zero!')
+        raise ValueError('Cannot divide by zero!')
     return x / y     #return the division of 'x' by 'y'
 
 def square(x, y):
