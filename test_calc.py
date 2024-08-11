@@ -22,21 +22,21 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.subtract(-1, -1), 0)
 
     def test_multiply(self):
-        # self.assertEqual(calc.multiply(10, 5), 50)
-        self.assertEqual(calc.multiply(10, 5), 60)    #edited for testing jenkins
+        self.assertEqual(calc.multiply(10, 5), 50)
+        # self.assertEqual(calc.multiply(10, 5), 60)    #edited for testing jenkins
         self.assertEqual(calc.multiply(-1, 1), -1)
         self.assertEqual(calc.multiply(-1, -1), 1)
 
     def test_divide(self):
-        # self.assertEqual(calc.divide(10, 5), 2)
-        self.assertEqual(calc.divide(10, 5), 1)
+        self.assertEqual(calc.divide(10, 5), 2)
+        # self.assertEqual(calc.divide(10, 5), 1)
         self.assertEqual(calc.divide(-1, 1), -1)
         self.assertEqual(calc.divide(-1, -1), 1)
         self.assertEqual(calc.divide(5, 2), 2.5)
     
     def test_square(self):
-        # self.assertEqual(calc.square(2, 3),8)
-        self.assertEqual(calc.square(2, 3),7)
+        self.assertEqual(calc.square(2, 3),8)
+        # self.assertEqual(calc.square(2, 3),7)
         self.assertEqual(calc.square(3, 3), 27)
 
         with self.assertRaises(ValueError):
