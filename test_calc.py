@@ -23,7 +23,7 @@ class TestCalc(unittest.TestCase):
 
     def test_multiply(self):
         # self.assertEqual(calc.multiply(10, 5), 50)
-        self.assertEqual(calc.multiply(10, 5), 40)
+        self.assertEqual(calc.multiply(10, 5), 60)    #edited for testing jenkins
         self.assertEqual(calc.multiply(-1, 1), -1)
         self.assertEqual(calc.multiply(-1, -1), 1)
 
